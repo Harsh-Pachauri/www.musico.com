@@ -1,6 +1,13 @@
 {
     "albums": [
         {
+            "folder": "Durga",
+            "title": "Durga Acharya",
+            "description": "Soulful tracks",
+            "cover": "cover.jpg",
+            "songs": ["Moh Moh Ke Dhaage.mp3"]
+        },
+        {
             "folder": "cs",
             "title": "Chill Songs",
             "description": "Relaxing tunes",
