@@ -8,6 +8,92 @@
             "songs": ["Moh Moh Ke Dhaage.mp3"]
         },
         {
+            "folder": "bolona",
+            "title": "Bolo Na",
+            "description": "Durga Acharya",
+            "cover": "cover.jpg",
+            "songs": ["Bolo Na.mp3"]
+        },
+        {
+            "folder": "nainokinaiya",
+            "title": "Nainon Ki Naiya",
+            "description": "Durga Acharya",
+            "cover": "cover.jpg",
+            "songs": ["Nainon Ki Naiya.mp3"]
+        },
+
+        {
+            "folder": "mohmoh",
+            "title": "Moh Moh Ke Dhaage",
+            "description": "Durga Acharya",
+            "cover": "cover.jpg",
+            "songs": ["Moh Moh Ke Dhaage.mp3"]
+        },
+        {
+            "folder": "vekamleya",
+            "title": "Ve Kamleya",
+            "description": "Durga Acharya",
+            "cover": "cover.jpg",
+            "songs": ["Ve Kamleya.mp3"]
+        },
+
+        {
+            "folder": "nahokebhi",
+            "title": "Na Hoke Bhi",
+            "description": "Durga Acharya",
+            "cover": "cover.jpg",
+            "songs": ["Na hoke Bhi Kareeb Tu.mp3"]
+        },
+        {
+            "folder": "ehsaantera",
+            "title": "Ehsaan Tera",
+            "description": "Durga Acharya",
+            "cover": "cover.jpg",
+            "songs": ["Ehsaan Tera Hoga Mujh Par.mp3"]
+        },
+        {
+            "folder": "rangrez",
+            "title": "Rangrez",
+            "description": "Durga Acharya",
+            "cover": "cover.jpg",
+            "songs": ["Rangrez.mp3"]
+        },
+        {
+            "folder": "kahindoor",
+            "title": "Kahin Door Jab",
+            "description": "Durga Acharya",
+            "cover": "cover.jpg",
+            "songs": ["Kahin Door Jab din Dhal Jaaye.mp3"]
+        },
+        {
+            "folder": "salonasa",
+            "title": "Salona Sa Sajan",
+            "description": "Durga Acharya",
+            "cover": "cover.jpg",
+            "songs": ["Salona Sa Sajan.mp3"]
+        },
+        {
+            "folder": "teremeresapne",
+            "title": "Tere Mere Sapne",
+            "description": "Durga Acharya",
+            "cover": "cover.jpg",
+            "songs": ["Tere Mere Sapne.mp3"]
+        },
+        {
+            "folder": "aahatein",
+            "title": "Aahatein",
+            "description": "Durga Acharya",
+            "cover": "cover.jpg",
+            "songs": ["Aahatein.mp3"]
+        },
+        {
+            "folder": "natumhamejaano",
+            "title": "Na Tum Hame Jaano",
+            "description": "Durga Acharya",
+            "cover": "cover.jpg",
+            "songs": ["Na Tum Hame Jaano.mp3"]
+        },
+        {
             "folder": "cs",
             "title": "Chill Songs",
             "description": "Relaxing tunes",
