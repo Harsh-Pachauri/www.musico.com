@@ -29,6 +29,14 @@
             "cover": "cover.jpg",
             "songs": ["Moh Moh Ke Dhaage.mp3"]
         },
+        
+        {
+            "folder": "aahatein",
+            "title": "Aahatein",
+            "description": "Durga Acharya",
+            "cover": "cover.jpg",
+            "songs": ["Aahatein.mp3"]
+        },
         {
             "folder": "vekamleya",
             "title": "Ve Kamleya",
@@ -85,6 +93,13 @@
             "description": "Durga Acharya",
             "cover": "cover.jpg",
             "songs": ["Aahatein.mp3"]
+        },
+        {
+            "folder": "kunfaayakun",
+            "title": "Kun Faaya Kun",
+            "description": "Durga Acharya",
+            "cover": "cover.jpg",
+            "songs": ["Kun Faaya Kun.mp3"]
         },
         {
             "folder": "natumhamejaano",
