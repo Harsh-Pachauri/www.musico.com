@@ -18,7 +18,7 @@ function secondsToMinutesSeconds(seconds) {
 async function getSongs(folder, albumSongs) {
     currFolder = folder;
     songs = albumSongs.map(song => song);
-    
+
     console.log(songs);
 
     // Show all the songs in the playlist
@@ -124,17 +124,23 @@ async function main() {
 
     previous.addEventListener("click", () => {
         currentSong.pause();
-        let index = songs.indexOf(currentSong.src.split("/").slice(-1)[0]);
+        let currentTrack = currentSong.src.split("/").pop();
+        let index = songs.indexOf(decodeURI(currentTrack));
         if ((index - 1) >= 0) {
             setTimeout(() => playMusic(songs[index - 1]), 200);
+        } else {
+            setTimeout(() => playMusic(songs[songs.length - 1]), 200);
         }
     });
 
     next.addEventListener("click", () => {
         currentSong.pause();
-        let index = songs.indexOf(currentSong.src.split("/").slice(-1)[0]);
+        let currentTrack = currentSong.src.split("/").pop();
+        let index = songs.indexOf(decodeURI(currentTrack));
         if ((index + 1) < songs.length) {
             setTimeout(() => playMusic(songs[index + 1]), 200);
+        } else {
+            setTimeout(() => playMusic(songs[0]), 200);
         }
     });
 
