@@ -124,7 +124,7 @@ async function main() {
 
     previous.addEventListener("click", () => {
         currentSong.pause();
-        let index = songs.indexOf(currentSong.src.split("/").pop());
+        let index = songs.indexOf(currentSong.src.split("/").slice(-1)[0]);
         if ((index - 1) >= 0) {
             playMusic(songs[index - 1]);
         }
@@ -132,7 +132,7 @@ async function main() {
 
     next.addEventListener("click", () => {
         currentSong.pause();
-        let index = songs.indexOf(currentSong.src.split("/").pop());
+        let index = songs.indexOf(currentSong.src.split("/").slice(-1)[0]);
         if ((index + 1) < songs.length) {
             playMusic(songs[index + 1]);
         }
