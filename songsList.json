@@ -3,9 +3,9 @@
         {
             "folder": "Durga",
             "title": "Durga Acharya",
-            "description": "Soulful tracks",
+            "description": "A soulful voice",
             "cover": "cover.jpg",
-            "songs": ["Moh Moh Ke Dhaage.mp3"]
+            "songs": ["Na Hoke Bhi Kareeb Tu.mp3","Rangrez.mp3","Bolo Na.mp3","Moh Moh Ke Dhaage.mp3","Kahin Door Jab Din Dhal Jaaye.mp3","Aahatein.mp3","Nainon Ki Naiya.mp3","Ve Kamleya","Na Tum Hame Jaano.mp3","Ehsaan Tera.mp3","Kun Faaya Kun.mp3","Salona Sa.mp3","Tere Mere Sapne.mp3"]
         },
         {
             "folder": "bolona",
@@ -86,13 +86,6 @@
             "description": "Durga Acharya",
             "cover": "cover.jpg",
             "songs": ["Tere Mere Sapne.mp3"]
-        },
-        {
-            "folder": "aahatein",
-            "title": "Aahatein",
-            "description": "Durga Acharya",
-            "cover": "cover.jpg",
-            "songs": ["Aahatein.mp3"]
         },
         {
             "folder": "kunfaayakun",
