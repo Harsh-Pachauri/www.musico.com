@@ -126,15 +126,15 @@ async function main() {
         currentSong.pause();
         let index = songs.indexOf(currentSong.src.split("/").slice(-1)[0]);
         if ((index - 1) >= 0) {
-            playMusic(songs[index - 1]);
+            setTimeout(() => playMusic(songs[index - 1]), 200);
         }
     });
 
     next.addEventListener("click", () => {
         currentSong.pause();
         let index = songs.indexOf(currentSong.src.split("/").slice(-1)[0]);
-        if ((index + 1) < songs.length-1) {
-            playMusic(songs[index + 1]);
+        if ((index + 1) < songs.length) {
+            setTimeout(() => playMusic(songs[index + 1]), 200);
         }
     });
 
